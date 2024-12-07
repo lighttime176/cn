@@ -7,3 +7,6 @@
 2024-12-08 02:10:49,602 - INFO - zclrspfk9j@qq.com
 2024-12-08 02:10:50,331 - INFO - {'status': 'success', 'message': '操作成功', 'data': {'token': 'db31466b3a5415e337bd7e1b3b989552', 'is_admin': None, 'auth_data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczODczLCJzZXNzaW9uIjoiMzliMWE1MWI5NmRkOTcyODdkNzNhZGE0ZDU3YzIzYzMifQ.9bMhAM4VgcSabkraa2TOn2HQ0KJ4vr3rfdMf35iXzRU'}, 'error': None}
 2024-12-08 02:10:50,331 - INFO - https://cainiao220.top/api/v1/client/subscribe?token=db31466b3a5415e337bd7e1b3b989552&flag=clash
+2024-12-08 05:07:13,336 - INFO - 6z40tm9cpf@qq.com
+2024-12-08 05:07:14,075 - INFO - {'status': 'success', 'message': '操作成功', 'data': {'token': 'f616b3827b1fbbd73d3bc6e061378a38', 'is_admin': None, 'auth_data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczOTgwLCJzZXNzaW9uIjoiNjBiOGFlZDU0OTlkNjg0NzAwZmJlMzUwODk2ZmM1YjgifQ.3n8nFb6UTIzlb0MsM4x41ql196KOZb-Ei2levTq3NQE'}, 'error': None}
+2024-12-08 05:07:14,075 - INFO - https://cainiao220.top/api/v1/client/subscribe?token=f616b3827b1fbbd73d3bc6e061378a38&flag=clash
