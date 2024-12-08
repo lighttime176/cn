@@ -15,49 +15,49 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 建议有事没事都更新订阅, type: ss, server: cainiao212.top, port: 666, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 香港中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 43641, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 香港中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 36858, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 香港中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 14407, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 香港中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 11618, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 香港中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 20901, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 台湾中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 27110, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 台湾中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 17010, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 台湾中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 14232, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 台湾中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 25149, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 台湾中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 35846, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 日本中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 13706, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 日本中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 57661, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 日本中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 38225, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 日本中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 38649, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 日本中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 21743, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 新加坡中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 21667, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 新加坡中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 44776, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 新加坡中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 11599, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 美国中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 26858, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 美国中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 15070, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 美国中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 23631, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 英国中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 29172, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 英国中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 34013, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 英国中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 13708, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 瑞典中转✈, type: ss, server: gstdnb.myfczy169.top, port: 22539, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 越南中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21070, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 印度中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21060, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 德国中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21099, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 土耳其中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21040, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 阿联酋中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21059, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 马来西亚中转✈, type: ss, server: gstdnb.myfczy169.top, port: 20119, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: 哈萨克斯坦中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21081, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
-    - { name: '♡⃝♡⃝♡⃝♡⃝♡⃝ ◡̈下方为备用节点', type: ss, server: 666.com, port: 777, cipher: chacha20-ietf-poly1305, password: e634db0b-0521-481a-8bee-305f8084ed14, udp: true }
+    - { name: 建议有事没事都更新订阅, type: ss, server: cainiao212.top, port: 666, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 香港中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 43641, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 香港中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 36858, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 香港中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 14407, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 香港中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 11618, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 香港中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 20901, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 台湾中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 27110, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 台湾中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 17010, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 台湾中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 14232, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 台湾中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 25149, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 台湾中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 35846, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 日本中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 13706, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 日本中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 57661, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 日本中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 38225, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 日本中转✈04, type: ss, server: gstdnb.myfczy169.top, port: 38649, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 日本中转✈05, type: ss, server: gstdnb.myfczy169.top, port: 21743, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 新加坡中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 21667, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 新加坡中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 44776, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 新加坡中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 11599, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 美国中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 26858, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 美国中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 15070, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 美国中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 23631, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 英国中转✈01, type: ss, server: gstdnb.myfczy169.top, port: 29172, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 英国中转✈02, type: ss, server: gstdnb.myfczy169.top, port: 34013, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 英国中转✈03, type: ss, server: gstdnb.myfczy169.top, port: 13708, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 瑞典中转✈, type: ss, server: gstdnb.myfczy169.top, port: 22539, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 越南中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21070, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 印度中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21060, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 德国中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21099, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 土耳其中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21040, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 阿联酋中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21059, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 马来西亚中转✈, type: ss, server: gstdnb.myfczy169.top, port: 20119, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: 哈萨克斯坦中转✈, type: ss, server: gstdnb.myfczy169.top, port: 21081, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
+    - { name: '♡⃝♡⃝♡⃝♡⃝♡⃝ ◡̈下方为备用节点', type: ss, server: 666.com, port: 777, cipher: chacha20-ietf-poly1305, password: d620b35c-238a-4801-81ad-1d45eeab0057, udp: true }
 proxy-groups:
     - { name: 菜鸟机场, type: select, proxies: [自动选择, 故障转移, 建议有事没事都更新订阅, 香港中转✈01, 香港中转✈02, 香港中转✈03, 香港中转✈04, 香港中转✈05, 台湾中转✈01, 台湾中转✈02, 台湾中转✈03, 台湾中转✈04, 台湾中转✈05, 日本中转✈01, 日本中转✈02, 日本中转✈03, 日本中转✈04, 日本中转✈05, 新加坡中转✈01, 新加坡中转✈02, 新加坡中转✈03, 美国中转✈01, 美国中转✈02, 美国中转✈03, 英国中转✈01, 英国中转✈02, 英国中转✈03, 瑞典中转✈, 越南中转✈, 印度中转✈, 德国中转✈, 土耳其中转✈, 阿联酋中转✈, 马来西亚中转✈, 哈萨克斯坦中转✈, '♡⃝♡⃝♡⃝♡⃝♡⃝ ◡̈下方为备用节点'] }
     - { name: 自动选择, type: url-test, proxies: [建议有事没事都更新订阅, 香港中转✈01, 香港中转✈02, 香港中转✈03, 香港中转✈04, 香港中转✈05, 台湾中转✈01, 台湾中转✈02, 台湾中转✈03, 台湾中转✈04, 台湾中转✈05, 日本中转✈01, 日本中转✈02, 日本中转✈03, 日本中转✈04, 日本中转✈05, 新加坡中转✈01, 新加坡中转✈02, 新加坡中转✈03, 美国中转✈01, 美国中转✈02, 美国中转✈03, 英国中转✈01, 英国中转✈02, 英国中转✈03, 瑞典中转✈, 越南中转✈, 印度中转✈, 德国中转✈, 土耳其中转✈, 阿联酋中转✈, 马来西亚中转✈, 哈萨克斯坦中转✈, '♡⃝♡⃝♡⃝♡⃝♡⃝ ◡̈下方为备用节点'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
     - { name: 故障转移, type: fallback, proxies: [建议有事没事都更新订阅, 香港中转✈01, 香港中转✈02, 香港中转✈03, 香港中转✈04, 香港中转✈05, 台湾中转✈01, 台湾中转✈02, 台湾中转✈03, 台湾中转✈04, 台湾中转✈05, 日本中转✈01, 日本中转✈02, 日本中转✈03, 日本中转✈04, 日本中转✈05, 新加坡中转✈01, 新加坡中转✈02, 新加坡中转✈03, 美国中转✈01, 美国中转✈02, 美国中转✈03, 英国中转✈01, 英国中转✈02, 英国中转✈03, 瑞典中转✈, 越南中转✈, 印度中转✈, 德国中转✈, 土耳其中转✈, 阿联酋中转✈, 马来西亚中转✈, 哈萨克斯坦中转✈, '♡⃝♡⃝♡⃝♡⃝♡⃝ ◡̈下方为备用节点'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
-    - 'IP-CIDR,15.197.142.173/32,DIRECT,no-resolve'
     - 'IP-CIDR,3.33.152.147/32,DIRECT,no-resolve'
+    - 'IP-CIDR,15.197.142.173/32,DIRECT,no-resolve'
+    - 'IP-CIDR,36.151.194.67/32,DIRECT,no-resolve'
     - 'IP-CIDR,120.201.131.53/32,DIRECT,no-resolve'
-    - 'IP-CIDR,111.4.108.48/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.21.31.96/32,DIRECT,no-resolve'
     - 'IP-CIDR,172.67.176.46/32,DIRECT,no-resolve'
     - 'DOMAIN,cainiao220.top,DIRECT'
